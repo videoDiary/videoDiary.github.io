@@ -30,6 +30,7 @@ body {
     visibility: hidden;
 }
 
+
 /*-----------------------------*/
 /*Reuseable Components*/
 /*-----------------------------*/
@@ -72,6 +73,9 @@ h3 {
     font-size: 110%;
     margin-bottom: 15px;
     letter-spacing: 0;
+    text-align: left;
+    color: #cbcbcb;
+    font-style: italic;
 }
 
 h2:after{                               /*make something appear after h2*/
@@ -141,7 +145,7 @@ input[type=submit]{
 
 nav{
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
+    transform: translate(0, 30%);
 }
 
 .main-nav {
@@ -168,6 +172,7 @@ nav{
     margin: 5px 10px;
     padding: auto;
     float: right;
+    font-family: "Lato","Arial",sans-serif;
 }
 
 .main-page {
@@ -467,26 +472,56 @@ footer p{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
 }
 
-.body-product nav {
-    background-color: #505050;
-}
-/*-----------------------------*/
-/*HOWITWORKS*/
-/*-----------------------------*/
-
-.body-works {
-    background-color: #cbcbcb;
+.our-products {
+    display: block;
+    text-align: center;
+    width: auto;
+    transform: translate(0%, 60%);
 }
 
-.body-works nav {
-    background-color: #505050;
+.our-products h1 {
+    text-align: left;
+    border-bottom: 2px solid #3498db;
 }
+
+.box {
+    margin-top: 100px;
+    position: relative;
+    -webkit-animation-delay: 1s;
+}
+
+.box img{
+    width:100%;
+    opacity: 0.7;
+    overflow: hidden;
+    transform: scale(0.95);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.box img:hover,
+.box img:active {
+    opacity: 1;
+    transform: scale(1);
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url(img/hero.jpg);
+}
+
+.caption {
+    margin-top: 0;
+    padding-left: 20px;
+    -webkit-animation-delay: 1s;
+}
+
+.our-products {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.3s;
+}
+
 /*-----------------------------*/
 /*HOW IT WORKS*/
 /*-----------------------------*/
 
 .section-steps {
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 .steps-box1{
@@ -576,4 +611,9 @@ input[type=checkbox] {
 
 .photos {
     margin: 30px;
+}
+
+
+.blue {
+    color: #3498db;
 }

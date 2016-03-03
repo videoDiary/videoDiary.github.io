@@ -12,8 +12,10 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300italic,300' rel='stylesheet' type='text/css'>
         <title>TableTop Product</title>
     </head>
-    
-    <body class="body-product">
+
+    <body>
+            
+        <header>
             <nav>
                 <div class="row">
                     <a href="index.html" class="main-page">TableTop</a>
@@ -21,12 +23,57 @@
                         <li><a href="contact.html">Contact us</a></li>
                         <li><a href="photos.html">Photos</a></li>
                         <li><a href="works.html">How it works</a></li>
-                        <li><a href="product.html">Our Products</a></li>
+                        <li id="blue"><a href="product.html">Our Products</a></li>
                     </ul>
                 </div>
             </nav>
         
-       <section class="section-works">
+           <div class="row">
+               <div class="our-products animated fadeIn">
+                   <h1>Our Products</h1>
+                   <h3>Choose from our large selection of tables!</h3>
+               </div>
+           </div>
+            <!--Picture links-->
+            <div class="row">
+                <div class="col span-1-of-3 box animated fadeIn">
+                    <img src="vendors/img/nature1.jpg" alt="nature">
+                </div>
+
+                <div class="col span-1-of-3 box animated fadeIn">
+                    <img src="vendors/img/nature2.jpg" alt="nature">
+                </div>
+
+                <div class="col span-1-of-3 box animated fadeIn">
+                    <img src="vendors/img/nature3.jpg" alt="nature">
+                </div>
+            </div>
+            <!--captions under pictures-->
+            <div class="row">
+                <div class="col span-1-of-3 caption animated fadeIn">
+                    <h3>Planet Sphere</h3>
+                    <div class="city-feature">
+                        1st Generation
+                    </div>
+                </div>
+
+                <div class="col span-1-of-3 caption animated fadeIn">
+                    <h3>The Elephant</h3>
+                    <div class="city-feature">
+                        2nd Generation
+                    </div>
+                </div>
+
+                <div class="col span-1-of-3 caption animated fadeIn">
+                    <h3>Peace</h3>
+                    <div class="city-feature">
+                        3rd Generation
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section class="section-works">
             <div class="row">
                 <div class="col span-1-of-4">
                     <div class="steps-box1a">
@@ -45,7 +92,7 @@
                 </div>
             </div>
         </section>
-    
+
         <footer>
             <div class="row">
                 <div class="col span-1-of-2">
@@ -70,6 +117,16 @@
                 </p>
             </div>
         </footer>
+        
+        <a class="scrollup"><i class="ion-ios-arrow-up"></i></a>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+        <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivize.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/script.js"></script> <!--must be last script called-->
+        
     </body>
 
 </html>
