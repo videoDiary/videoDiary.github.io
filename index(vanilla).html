@@ -12,29 +12,35 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300italic,300' rel='stylesheet' type='text/css'>
         <title>TableTop</title>
     </head>
-    
+
     <body>
+        
         <header>
             <nav>
                 <div class="row">
-                    <a href="index.html" class="main-page">TableTop</a>
-                    <ul class="main-nav">
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Photos</a></li>
-                        <li><a href="works.html">How it works</a></li>
-                        <li><a href="product.html">Our Products</a></li>
+                    <a href="index.html" class="main-page blue">TableTop</a>
+                    <a class="btn btn-li" href="#">For Developers</a>
+                    <ul class="main-nav">                        
+                        <li><a href="works.html">Benefits</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="photos.html">Photos</a></li>
+                        <li><a href="contact.html">FAQ</a></li>
                     </ul>
                 </div>
             </nav>
-             <div class="hero-text-box">
-                <h1>TableTop</h1>
+             <div class="hero-text-box animated fadeIn">
+                <h1>Welcome to TableTop</h1>
+                 <div class="buttons">
             </div>
-            <div class="scroll-down">
+            </div>
+            <div class="scroll-down ">
                 <div>
-                    <a href="#nextPage"><i class="ion-ios-arrow-down icon-big"></i></a>
+                    <a href="#nextPage"><i class="ion-ios-arrow-down icon-big animated bounce"></i></a>
                 </div>
             </div>
         </header>
+        
+        <div class="main">
         
         <section class="who-we-are" id="nextPage">
             <div class="row">
@@ -46,6 +52,94 @@
                 <a class="btn btn-ghost" href="#">For Restaurants</a>
             </div>
             
+        </section>
+        
+        <section class="section-get-connected">
+            <div class="row">
+                <h2>Get a demo in just 3 easy stepss!</h2>
+                <p>Just follow this guide to get your resturant on our waitlist for a demo table!</p>
+            </div>
+            
+            <div class="row">
+                <div class="col span-1-of-4">
+                    step 1
+                </div>
+                <div class="col span-1-of-4">
+                    step 2
+                </div>
+                <div class="col span-1-of-4">
+                    step 3
+                </div>
+                <div class="col span-1-of-4">
+                    Doneso
+                </div>
+            </div>
+            <div class="row">
+                <a class="btn btn-full" href="#">Try it now!</a>
+            </div>
+        </section>
+        
+        <section class="section-form ">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="MAILTO:novofrankie@gmail.com" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required> <!--required means form won't sent unless this part is filled-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required> <!--required means form won't sent unless this part is filled-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" if="find-us">
+                                <option value="friends" selected>Friends</option>
+                                <option value="search">Search Engine</option>
+                                <option value="ad">Advertisment</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Newsletter</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked>Yes, please
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send its">
+                        </div>
+                    </div>
+                </form>
+            </div>
         </section>
         
          <section class="section-photos">
@@ -121,6 +215,8 @@
             </div>
         </section>
         
+        </div>
+            
         <footer>
             <div class="row">
                 <div class="col span-1-of-2">
@@ -145,6 +241,7 @@
                 </p>
             </div>
         </footer>
+
         
         <!--Top of page-->
         <a class="scrollup"><i class="ion-ios-arrow-up"></i></a>
@@ -154,8 +251,7 @@
         <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivize.min.js"></script>
         <script src="vendors/js/jquery.waypoints.min.js"></script>
-        <script src="resources/js/script.js"></script> <!--must be last script called-->
-        
+        <script src="resources/js/script.js"></script><!--must be last script called-->
     </body>
 
 </html>

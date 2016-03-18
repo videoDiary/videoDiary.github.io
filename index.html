@@ -14,20 +14,27 @@
     </head>
 
     <body>
+        
+        
         <header>
             <nav>
                 <div class="row">
                     <a href="index.html" class="main-page">TableTop</a>
-                    <ul class="main-nav">
-                        <li><a href="contact.html">Contact us</a></li>
-                        <li><a href="photos.html">Photos</a></li>
-                        <li><a href="works.html">How it works</a></li>
-                        <li><a href="product.html">Our Products</a></li>
+                    <a class="btn btn-li" href="#">For Developers</a>
+                    <ul class="main-nav js--main-nav">                        
+                        <li><a href="#jump-works" class="js--nav-icon">How it works</a></li>
+                        <li><a href="#nextPage" class="js--nav-icon">Buy now</a></li>
+                        <li><a href="#reviews" class="js--nav-icon">Reviews</a></li>
+                        <li><a href="#contact" class="js--nav-icon">Contact us</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
                     </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon"></i></a>
                 </div>
             </nav>
-             <div class="hero-text-box animated fadeIn">
-                <h1>TableTop</h1>
+            <div class="row">
+                <div class="hero-text-box animated fadeIn">
+                    <h1>Welcome to TableTop</h1>
+                </div>
             </div>
             <div class="scroll-down ">
                 <div>
@@ -36,16 +43,138 @@
             </div>
         </header>
         
-        <section class="who-we-are" id="nextPage">
-            <div class="row">
-                <h2>What is TableTop?</h2>
-                <p class="long-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit augue, semper non nulla et, porta elementum tellus. Mauris non condimentum est, sit amet rhoncus neque. Nam in sem non felis consequat rutrum eget fringilla justo. Quisque eleifend convallis nunc</p>
+        <section class="buyer-journey js--section-features" id="nextPage">
+            <div class="row js--wp-1">
+                <h2>Buyer's Journey</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit augue, semper non nulla et, porta elementum tellus. Mauris non condimentum est, sit amet rhoncus neque. Nam in sem non felis consequat rutrum eget fringilla justo. Quisque eleifend convallis nunc</p>
             </div>
             <div class="buttons">
-                <a class="btn btn-full" href="#">For Development</a>
-                <a class="btn btn-ghost" href="#">For Restaurants</a>
+                <a class="btn btn-full" href="#">Buy Now</a>
             </div>
             
+        </section>
+        
+        <section class="main-benefits">
+            <div class="row">
+                <h2>Main Benefits</h2>
+            </div>
+            <div class="row js--wp-2">
+                <div class="col span-1-of-3">
+                    <i class="ion-ios-color-wand-outline"></i>
+                    <h3>Wow Factor</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit augue, semper non nulla et, porta elementum tellus.</p>
+                </div>
+                <div class="col span-1-of-3">
+                    <i class="ion-arrow-graph-up-right"></i>
+                    <h3>Revenue and Profit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit augue, semper non nulla et, porta elementum tellus.</p>
+                </div>
+                <div class="col span-1-of-3">
+                    <i class="ion-android-contacts"></i>
+                    <h3>Happier Customers</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit augue, semper non nulla et, porta elementum tellus.</p>
+                </div>
+            </div>
+        
+        </section>
+        
+        <section class="how-it-works" id="jump-works">
+            <div class="row">
+                <h2>How it works</h2>
+            </div>
+            <div class="row works-video">
+                <iframe class="works-videos" src="https://www.youtube.com/embed/RZYOidfxbLA" frameborder="0" allowfullscreen></iframe>
+            </div>
+            
+        
+        </section>
+        
+        <section class="section-get-connected">
+            <div class="row js--wp-3">
+                <h2>Get a demo in just 3 easy stepss!</h2>
+                <p>Just follow this guide to get your resturant on our waitlist for a demo table!</p>
+            </div>
+            
+            <div class="row">
+                <div class="col span-1-of-4">
+                    step 1
+                </div>
+                <div class="col span-1-of-4">
+                    step 2
+                </div>
+                <div class="col span-1-of-4">
+                    step 3
+                </div>
+                <div class="col span-1-of-4">
+                    Doneso
+                </div>
+            </div>
+            <div class="row">
+                <a class="btn btn-full" href="#">Try it now!</a>
+            </div>
+        </section>
+        
+        <section class="section-form" id="contact">
+            <div class="row js--wp-4">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="email.php" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" max="35" placeholder="Your name" required> <!--required means form won't sent unless this part is filled-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required multiple max="100"> <!--required means form won't sent unless this part is filled-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us" multiple>
+                                <option value="friends" selected>Friends</option>
+                                <option value="search">Search Engine</option>
+                                <option value="ad">Advertisment</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Newsletter</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked>Yes, please
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your Message" maxlength="500"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it">
+                        </div>
+                    </div>
+                </form>
+            </div>
         </section>
         
          <section class="section-photos">
@@ -95,7 +224,7 @@
             </ul>
         </section>
     
-         <section class="section-testimonials">
+         <section class="section-testimonials" id="reviews">
             <div class="row">
                 <h2>Just listen to our customer reviews!</h2>
             </div>
@@ -120,7 +249,7 @@
                 </div>
             </div>
         </section>
-        
+            
         <footer>
             <div class="row">
                 <div class="col span-1-of-2">
@@ -139,13 +268,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="row">
+            <div class="row CopyRight">
                 <p>
                     Copyright &copy; 2015 by <a href="#" id="NeonArc">NeonArc</a>. All rights reserved.
                 </p>
             </div>
         </footer>
-        
+
         <!--Top of page-->
         <a class="scrollup"><i class="ion-ios-arrow-up"></i></a>
         
@@ -154,7 +283,8 @@
         <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivize.min.js"></script>
         <script src="vendors/js/jquery.waypoints.min.js"></script>
-        <script src="resources/js/script.js"></script> <!--must be last script called-->
+        
+        <script src="resources/js/script.js"></script><!--must be last script called-->
     </body>
 
 </html>
