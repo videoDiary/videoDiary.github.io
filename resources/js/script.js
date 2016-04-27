@@ -78,13 +78,13 @@ $(document).ready(function () {
         
         nav.slideToggle(200);
         
-        if (icon.hasClass('ion-navicon')){
+        /*if (icon.hasClass('ion-navicon')){
             icon.addClass('ion-close-round');
             icon.removeClass('ion-navicon');
         } else{
             icon.removeClass('ion-close-round');
             icon.addClass('ion-navicon');
-        }
+        }*/
         
     })
     
