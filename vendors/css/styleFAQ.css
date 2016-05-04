@@ -2,7 +2,7 @@
 
 Primary style
 
--------------------------------- */
+-------------------------------- 
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -22,7 +22,7 @@ body {
     background-size: cover;
 }
 body::after {
-  /* overlay layer visible on small devices when the right panel slides in */
+  /* overlay layer visible on small devices when the right panel slides in 
   position: fixed;
   top: 0;
   left: 0;
@@ -61,7 +61,7 @@ a {
 
 Main components 
 
--------------------------------- */
+-------------------------------- 
 header {
     background-color: #2e2e2e;
     height: 50px;
@@ -117,7 +117,7 @@ nav a {
   text-overflow: ellipsis;
 }
 .cd-faq-categories a::before, .cd-faq-categories a::after {
-  /* plus icon on the right */
+  /* plus icon on the right 
   position: absolute;
   top: 50%;
   right: 16px;
@@ -172,7 +172,7 @@ nav a {
     z-index: 2;
   }
   .cd-faq-categories a::before {
-    /* decorative rectangle on the left visible for the selected item */
+    /* decorative rectangle on the left visible for the selected item 
     display: block;
     top: 0;
     right: auto;
@@ -192,7 +192,7 @@ nav a {
     opacity: 1;
   }
   .cd-faq-categories.is-fixed {
-    /* top and left value assigned in jQuery */
+    /* top and left value assigned in jQuery 
     position: fixed;
   }
   .no-js .cd-faq-categories {
@@ -277,7 +277,7 @@ nav a {
   text-indent: 100%;
   white-space: nowrap;
   z-index: 2;
-  /* Force Hardware Acceleration in WebKit */
+   Force Hardware Acceleration in WebKit 
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
@@ -290,7 +290,7 @@ nav a {
   transition: right 0.4s;
 }
 .cd-close-panel::before, .cd-close-panel::after {
-  /* close icon in CSS */
+   close icon in CSS 
   position: absolute;
   top: 16px;
   left: 12px;
@@ -323,8 +323,9 @@ nav a {
 }
 
 .cd-faq-group {
+  */
   /* hide group not selected */
-  display: none;
+/*  display: none;
 }
 .cd-faq-group.selected {
   display: block;
@@ -348,8 +349,9 @@ nav a {
 }
 @media only screen and (min-width: 768px) {
   .cd-faq-group {
+    */
     /* all groups visible */
-    display: block;
+ /*   display: block;
   }
   .cd-faq-group > li {
     background: rgba(255, 255, 255, 0.08);
@@ -368,7 +370,7 @@ nav a {
   .cd-faq-group:first-child .cd-faq-title {
     margin-top: 0;
   }
-}
+}*/
 
 .cd-faq-trigger {
   position: relative;
@@ -450,11 +452,11 @@ nav a {
 }
 
 /*--------BUTONS--------*/
-.btn:link,
+/*.btn:link,
 .btn:visited,
 input[type=submit]{
     display: inline-block;              /*Makes a box around text*/
-    font-size: 80%;
+    /*font-size: 80%;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
@@ -464,7 +466,7 @@ input[type=submit]{
     transition: background-color 0.2s, border 0.2s, color 0.2s;     /*simple annimation*/
 }
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
     .btn:link,
     .btn:visited,
     input[type=submit]{
@@ -496,4 +498,4 @@ input[type=submit]:active{
     float: right;
     font-size: 80%;
     border: 1px solid #2D6FF2;
-}
+}*/
