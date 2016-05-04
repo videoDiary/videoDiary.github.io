@@ -12,7 +12,7 @@ $(document).ready(function () {
       }
     }
   })
-  
+
   $('.js--contact').click(function(){
       $(this).css('color','#000');
   })
