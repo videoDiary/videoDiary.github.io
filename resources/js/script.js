@@ -24,7 +24,6 @@ $(document).ready(function () {
             $('.scrollup').fadeOut();
         }
     });
-
     $('.scrollup').click(function () {
         $("html, body").animate({
             scrollTop: 0
