@@ -1,252 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- tells mobile phones not to zoom out but start at scale of 1-->
-        
-        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">        
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-        <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300italic,300' rel='stylesheet' type='text/css'>
-        <title>Video Diary</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="NeonArc - Video Diary provides caregiver respite and autonomy for persons living with dementia using video footage.">
+    <meta name="author" content="">
+    <title>NeonArc - Video Diary</title>    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:500|Open+Sans:300,400" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+    <link href="css/neonarc-font.css" rel="stylesheet">
+</head>
 
-    <body>
-        
-        
-        <header>
-            <nav>
-                <div class="row">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="page-scroll" href="#page-top">
+                <img src="images/logo.png" class="img-responsive logo">
+                </a>
+            </div>
+            <div id="nav-main" class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav pull-right">
+                    <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+                    <li><a class="page-scroll" href="#benefits">Benefits</a></li>
+                    <li><a class="page-scroll" href="#howitworks">How It Works</a></li>
+                    <li><a class="page-scroll" href="#about">About Us</a></li>
+                    <li><a class="page-scroll" href="#contact">Contact Us</a></li>
+                    <li><a class="page-scroll" href="#faq">FAQ</a></li>
                     
-                    <ul class="main-nav js--main-nav">                        
-                        <li><a href="#jump-works" class="js--nav-icon">About</a></li>
-                        <li><a href="#benefits" class="js--nav-icon">Benefits</a></li>
-                        <li><a href="#contact" class="js--nav-icon">Contact Us</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="#blogpage.html" class="js--nav-icon">Blog</a></li>
-                        
-                    </ul>
-                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon"></i></a>
-                </div>
-            </nav>
-            <div class="row">
-                <div class="hero-text-box animated fadeIn">
-                    <h1>Welcome to Video Diary</h1>
-                </div>
+                </ul>
             </div>
-            <div class="scroll-down ">
-                <div>
-                    <a href="#jump-works"><i class="ion-ios-arrow-down icon-big animated bounce"></i></a>
-                </div>
-            </div>
-        </header>
-        
-        <section class="how-it-works" id="jump-works">
-            <div class="container">
-                <a class="scrollup ion-ios-arrow-up"></a>
-            </div>
-            <div class="row">
-                <h2>About Video Diary</h2>
-            </div>
-            <div class="row works-video">
-                <iframe class="works-videos" src="https://www.youtube.com/embed/hxN80VfOiDc" frameborder="0" allowfullscreen></iframe>
-            </div>
-            
+        </div>
+    </nav>
 
-        </section>
-        
-        <section class="main-benefits" id="benefits">
-            <div class="container">
-                <a class="scrollup ion-ios-arrow-up"></a>
-            </div>
+    <section id="intro" class="intro-section">
+        <div class="container">
             <div class="row">
-                <h2>Main Benefits</h2>
-            </div>
-            <div class="row js--wp-2">
-                <div class="col span-1-of-3">
-                    <i class="ion-android-star-half"></i>
-                    <h3>Increases Autonomy</h3>
-                    <p class="benefit">Video Diary is helping people with Alzheimer's and Dementia stay in their homes longer.</p>
-                </div>
-                <div class="col span-1-of-3">
-                    <i class="ion-android-star-half"></i>
-                    <h3>Improves Quality of Care</h3>
-                    <p class="benefit">With video recording, doctors and caregivers can monitor behaviour and determine better care solutions.</p>
-                </div>
-                <div class="col span-1-of-3">
-                    <i class="ion-android-star-half"></i>
-                    <h3>Reduces Caregiver Burden</h3>
-                    <p class="benefit">Video Diary allows caregivers to see recordings remotely at any time, making their job easier.</p>
+                <div class="col-lg-12">
+                    <h1>WELCOME TO VIDEO DIARY</h1>
+                    <h2>We help you make smarter decisions</h2>
+                    <p>&nbsp;</p>
+                    <a href="#benefits" class="page-scroll"><div class="awesome bounce icon icon-arrow"></div></a>
                 </div>
             </div>
-            
-        </section>
-        
-        <section class="section-form" id="contact">
-            <div class="container">
-                <a class="scrollup ion-ios-arrow-up"></a>
-            </div>
+        </div>
+    </section>
 
-            <div class="row js--wp-4">
-                <h2>Get in touch with us</h2>
-            </div>
+    <section id="benefits" class="benefits-section">
+        <div class="container">
             <div class="row">
-                <form method="post" action="email.php" class="contact-form">
+                <div class="col-lg-12">
+                    <h1>Benefits</h1>
+                    <h2>Caregiver respite and autonomy for persons living with dementia.</h2>
+                    <p>&nbsp;</p>
                     <div class="row">
-                        <div class="col span-1-of-3">
-                            <label for="name">Name</label>
+                        <div class="col-sm-3">
+                            <span class="icon icon-body"></span>
+                            <h2>PATIENT AUTONOMY</h2>
+                            <p>Persons living with dementia can do their daily living tasks more independently and encourage themselves.</p>
                         </div>
-                        <div class="col span-2-of-3">
-                            <input type="text" name="name" id="name" max="35" placeholder="Your name" required> <!--required means form won't sent unless this part is filled-->
+                        <div class="col-sm-3">
+                            <span class="icon icon-heart"></span>
+                            <h2>CAREGIVER RESPITE</h2>
+                            <p>Caregivers gain relief knowing their loved ones can do more independently.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <span class="icon icon-bar-chart"></span>
+                            <h2>BEHAVIOURAL DATA</h2>
+                            <p>Doctors, patients and caregivers can communicate more easily using video footage.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <span class="icon icon-eye-slash"></span>
+                            <h2>PRIVACY AND SECURITY</h2>
+                            <p>Your data is kept safe: only you can grant caregivers or doctors permission to view it.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <input type="email" name="email" id="email" placeholder="Your email" required multiple max="100"> <!--required means form won't sent unless this part is filled-->
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                            <label>How did you hear about us?</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <select name="find-us" id="find-us" multiple>
-                                <option value="friends" selected>Friends</option>
-                                <option value="search">Search Engine</option>
-                                <option value="ad">Advertisment</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                            <label>Drop us a line</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <textarea name="message" placeholder="Your Message" maxlength="500"></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                            <label>&nbsp;</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <input type="submit" value="Send it">
-                        </div>
-                    </div>
-                </form>
-            </div>
-            
-        </section>
-        
-         <!-- <section class="section-photos">
-            <ul class="showcase clearfix">
-                <li>
-                    <figure class="photo">
-                        <img src="resources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="photo">
-                        <img src="resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="photo">
-                        <img src="resources/img/3.jpg" alt="Chicken breast steak with vegetables">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="photo">
-                        <img src="resources/img/4.jpg" alt="Autumn pumpkin soup">
-                    </figure>
-                </li>
-            </ul>
-            <ul class="showcase clearfix">
-                <li>
-                    <figure class="photo">
-                        <img src="resources/img/5.jpg" alt="Paleo beef steak with vegetables">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="photo">
-                        <img src="resources/img/6.jpg" alt="Healthy baguette with egg and vegetables">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="photo">
-                        <img src="resources/img/7.jpg" alt="Burger with cheddar and bacon">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="photo">
-                        <img src="resources/img/8.jpg" alt="Granola with cherries and strawberries">
-                    </figure>
-                </li>
-            </ul>
-        </section> -->
-    
-         <section class="section-testimonials" id="faq">
-            <div class="container">
-                <a class="scrollup ion-ios-arrow-up"></a>
-            </div>
-            <div class="row">
-                <h2>Frequently Asked Questions</h2>
-            </div>
-            <div class="row">
-                <ul id="basics" class="cd-faq-group">
-                    <li>
-                        <a class="cd-faq-trigger" href="#0">How complicated is the installation process?</a>
-                        <div class="cd-faq-content">
-                            <p>Answer goes here.</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <a class="cd-faq-trigger" href="#0">How complicated is the installation process?</a>
-                        <div class="cd-faq-content">
-                            <p>Answer goes here.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <a class="cd-faq-trigger" href="#0">How complicated is the installation process?</a>
-                        <div class="cd-faq-content">
-                            <p>Answer goes here.</p>
-                        </div>
-                    </li>
-            </div>
-            
-        </section>
-        
-        <footer>
-            <div class="row">
-                <div class="col">
-                    <ul class="social-links">
-                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/video_diary" target="_blank"><i class="ion-social-twitter"></i></a></li>
-                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                    </ul>
                 </div>
             </div>
-            <div class="row CopyRight">
-                <p>
-                    Copyright &copy; 2015 by <a href="#" id="NeonArc">NeonArc</a>. All rights reserved.
-                </p>
+        </div>
+    </section>
+
+    <section id="howitworks" class="howitworks">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>How It Works</h1>
+                        <div class="row">
+                            <div class="col-lg-12">
+                               <div class="video">
+                                    <iframe width="711" height="400" src="https://www.youtube.com/embed/hxN80VfOiDc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                               </div>
+                            </div>
+                        </div>
+                </div>
             </div>
-        </footer>
-        <!--Top of page-->         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-        <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivize.min.js"></script>
-        <script src="vendors/js/jquery.waypoints.min.js"></script>
-        
-        <script src="resources/js/script.js"></script><!--must be last script called-->
-    </body>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>About Us</h1>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3>Team</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <a href="https://ca.linkedin.com/in/samkhan13" target="_blank"><img class="photo-personal" src="images/team/sam.jpg" alt="Sam Khan, Co-Founder"></a>
+                            <h2>Sam Khan</h2>
+                            <p><strong>Co-Founder</strong></p>
+                            <p>I want to address a problem we've faced personally and help others with my knowledge of human factors.</p>
+                        </div>               
+                        <div class="col-sm-6">
+                            <a href="https://www.linkedin.com/in/krystatraianovski" target="_blank"><img class="photo-personal" src="images/team/krysta.jpg" alt="Krysta Traianovski, Co-Founder"></a>
+                            <h2>Krysta Traianovski</h2>
+                            <p><strong>Co-Founder</strong></p>
+                            <p>I want to help people who have been diagnosed with Alzheimer's, like my grandfather, to feel independent again.</p>
+                        </div> 
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3>Previous</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <a href="https://in.linkedin.com/in/sheeshmohsin" target="_blank"><img class="photo-personal" src="images/team/sheesh.jpg" alt="Sheesh Mohsin, Software Engineer"></a>
+                            <h2>Sheesh Mohsin</h2>
+                            <p><strong>Software Engineer</strong></p>
+                        </div>            
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3>Advisors</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="https://ca.linkedin.com/in/dr-saskia-sivananthan-011a492" target="_blank"><img class="photo-personal" src="images/team/saskia.jpg" alt="Dr. Saskia Sivananthan, Member of WHO Global Dementia Observatory"></a>
+                            <h2>Dr. Saskia Sivananthan</h2>
+                            <p><strong>Global Dementia Observatory</strong></p>
+                        </div>            
+                        <div class="col-sm-4">
+                            <a href="https://ca.linkedin.com/in/allyson-hewitt-492a767" target="_blank"><img class="photo-personal" src="images/team/allyson.jpg" alt="Allyson Hewitt, Social Impact and Caregiving Advisor"></a>
+                            <h2>Allyson Hewitt</h2>
+                            <p><strong>Social Impact and Caregiving</strong></p>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://ca.linkedin.com/in/doug-beynon-13738b" target="_blank"><img class="photo-personal" src="images/team/doug.jpg" alt="Doug Beynon, Business Development Advisor"></a>
+                            <h2>Doug Beynon</h2>
+                            <p><strong>Business Development</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3>Supporters</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="https://uwaterloo.ca/conrad-business-entrepreneurship-technology/" target="_blank"><img class="img-responsive" src="images/conrad.jpg" width="200" alt="Conrad Centre for Business, Entrepreneurship and Technology"></a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://uwaterloo.ca/murray-alzheimer-research-and-education-program/" target="_blank"><img class="img-responsive" src="images/marep.jpg" width="200" alt="MAREP (Murray Alzheimer Research and Education Program"></a>
+                        </div>        
+                        <div class="col-sm-4">
+                            <a href="http://www.alzheimer.ca/ww/" target="_blank"><img class="img-responsive" src="images/alzheimers-society.jpg" width="200" alt="Alzheimer's Society of Waterloo-Wellington"></a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="http://hackinghealth.ca/" target="_blank"><img class="img-responsive" src="images/hackinghalth.jpg" width="200" alt="Hacking Health"></a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="http://marsdd.com" target="_blank"><img class="img-responsive" src="images/MaRS.jpg" width="200" alt="MaRS"></a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://uwaterloo.ca/applied-health-sciences/" target="_blank"><img class="img-responsive" src="images/ahs.jpg" width="200" alt="University of Waterloo Faculty of Applied Health Sciences"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Let's stay in touch</h1>
+                    <div class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-6">
+                            <! -- Form starts here -->
+
+                            <div id="mc_embed_signup">
+                                <form action="https://neonarc.us13.list-manage.com/subscribe/post?u=f0f7e70066e4dce8c3be66f38&amp;id=652a281568" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <div id="mc_embed_signup_scroll">
+
+                                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+
+                                        <div class="mc-field-group">
+                                            <h5 for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                                                </h5>
+                                            <input width="40" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+
+                                        </div>
+
+                                        <div class="mc-field-group">
+                                            <h5 for="mce-FNAME">First Name  <span class="asterisk">*</span>
+                                                </h5>
+                                            <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+                                        </div>
+
+                                        <div class="mc-field-group">
+                                            <h5 for="mce-LNAME">Last Name  <span class="asterisk">*</span>
+                                                </h5>
+                                            <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+
+                                        </div>
+
+                                        <div class="mc-field-group">
+                                            <h5 for="mce-group[3717]">Are you a... </h5>
+                                            <select name="group[3717]" class="REQ_CSS" id="mce-group[3717]">
+                                                <option value=""></option>
+                                                <option value="4">Person living with dementia</option>
+                                                <option value="8">Know a loved one with dementia</option>
+                                                <option value="16">Caregiver</option>
+                                                <option value="32">Healthcare Professional</option>
+                                                <option value="64">Researcher</option>
+                                                <option value="128">Other</option>
+
+                                            </select>
+                                        </div>
+
+                                        <div class="mc-field-group input-group">
+                                            <h5>Would you like to sign up for our newsletter? </h5>
+                                            <ul>
+                                                <li><input type="radio" value="256" name="group[3725]" id="mce-group[3725]-3725-0"><label for="mce-group[3725]-3725-0">Yes</label></li>
+                                                <li><input type="radio" value="512" name="group[3725]" id="mce-group[3725]-3725-1"><label for="mce-group[3725]-3725-1">No</label></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="mc-field-group input-group">
+                                            <h5>Are you interested in becoming a volunteer tester? </h5>
+                                            <ul>
+                                                <li><input type="radio" value="1" name="group[3713]" id="mce-group[3713]-3713-0"><label for="mce-group[3713]-3713-0">Yes</label></li>
+                                                <li><input type="radio" value="2" name="group[3713]" id="mce-group[3713]-3713-1"><label for="mce-group[3713]-3713-1">No</label></li>
+                                            </ul>
+                                        </div>
+
+                                        <div id="mce-responses" class="clear">
+                                            <div class="response" id="mce-error-response" style="display:none"></div>
+                                            <div class="response" id="mce-success-response" style="display:none"></div>
+                                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                            <input type="text" name="b_f0f7e70066e4dce8c3be66f38_652a281568" tabindex="-1" value="">
+                                        </div>
+                                        <div class="button-holder">
+                                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-success">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        <! -- Form Ends here -->
+                        </div>
+                        <div class="col-sm-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Frequently Asked Questions</h1>
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                    <h4 class="panel-title">How does Video Diary help persons living with dementia?
+                                        <i class="indicator icon icon-arrow-down pull-right"></i>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Persons living with dementia have the opportunity to recognize themselves in their video and see themselves performing their daily routines in their own home, as shown in their Video Diary. This is a convenient and dignified way to achieve self-confidence and autonomy.
+                                </div>
+                            </div>
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                    <h4 class="panel-title">How does Video Diary help caregivers?
+                                        <i class="indicator icon icon-arrow-down pull-right"></i>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Caregivers can save time and effort by providing remote assistance securely and privately, using Video Diary as a two-way communication and monitoring device. Video Diary can also act as a “first stop” for persons living with dementia before they ask a caregiver for assistance.
+                                </div>
+                            </div>
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                    <h4 class="panel-title">How does Video Diary help doctors or therapists?
+                                        <i class="indicator icon icon-arrow-down pull-right"></i>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Doctor’s and therapists often need detailed information about a patient’s daily routine, recent performance and environmental triggers. Video Diary provides the most objective and contextually-rich data a clinician could ask for - all without burdening the caregiver to record and interpret patient behaviour. 
+                                    <br /><br />
+                                    This line of communication between healthcare providers, patients, and caregivers is secure and meets industry and government privacy regulations.
+                                </div>
+                            </div>
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                    <h4 class="panel-title">How can I get Video Diary?
+                                        <i class="indicator icon icon-arrow-down pull-right"></i>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="collapse4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Video Diary is not currently for sale. We are currently seeking volunteers to help us undergo a pilot study in Fall 2016.
+                                </div>
+                            </div>
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                                    <h4 class="panel-title">How does Video Diary work?
+                                        <i class="indicator icon icon-arrow-down pull-right"></i>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="collapse5" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Video Diary is based on the concept of using video feedback as a tool to help people enhance their performance in work or play - like athletes whose coaches show them videos of the game or a pilot who watches a video of themselves operating a plane. 
+                                    <br /><br />
+                                    Video feedback has been shown to help people drastically improve their performance in these fields, and we want to use the same concept to help persons living with dementia regain self-confidence and autonomy for their daily living routines.
+                                </div>
+                            </div>
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                                    <h4 class="panel-title">How do you use Video Diary?
+                                        <i class="indicator icon icon-arrow-down pull-right"></i>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="collapse6" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Any off-the-shelf USB camera can be connected to an internet-enabled computer and once the user signs in, the cameras can be managed to record footage.
+                                    <br /><br />
+                                    We are currently working on advanced algorithms to analyze the video and tell you what type of activity a person is doing and automatically create timelapses for footage of interest.
+                                    <br /><br />
+                                    Currently, caregivers can manually showcase video snippets to the patient to provide high-fidelity instructions that can enhance behavioural health.
+                                </div>
+                            </div>
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                                    <h4 class="panel-title">What comes with the Video Diary kit?
+                                        <i class="indicator icon icon-arrow-down pull-right"></i>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="collapse7" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    The lightweight, unobtrusive kit provides four high resolution cameras with enhanced audio quality, along with a miniature computer and two tablets for viewing the footage.
+                                </div>
+                            </div>
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                                    <h4 class="panel-title">Where can I use Video Diary?
+                                        <i class="indicator icon icon-arrow-down pull-right"></i>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="collapse8" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    The system is suitable for any place where the person living with dementia performs majority of their daily routine. The location must have internet access.
+                                </div>
+                            </div>
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+                                    <h4 class="panel-title">How is privacy and security maintained?
+                                        <i class="indicator icon icon-arrow-down pull-right"></i>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="collapse9" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Only authorized caregivers and patients can sign into the service to access their personal videos, just like signing into your personal e-mail. The videos cannot be viewed by any other party due to our state-of-the-art end-to-end encryption technology.
+                                </div>
+                            </div>
+
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse10">
+                                    <h4 class="panel-title">Is Video Diary HIPAA compliant?
+                                        <i class="indicator icon icon-arrow-down pull-right"></i>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="collapse10" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Through our technology partner we can provide an audio-video communication line between healthcare recipients and providers that is compliant with Health Insurance Portability and Accountability Act (HIPAA).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    &copy; Copyright. NeonArc Inc. All Rights Reserved.
+                </div>
+                <div class="col-sm-4">
+                    <ul class="list-inline text-right"> 
+                        <li><a href="https://www.facebook.com/videodiarycare" target="_blank"><span class="icon icon-facebook"></span></a></li>
+                        <li><a href="https://twitter.com/video_diary" target="_blank" class="twitter"><span class="icon icon-twitter"></span></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCTtghohMXjCD9IfTDPsStFA" target="_blank"><span class="icon icon-youtube-play"></span></a></li>  
+                    </ul>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    <script>
+ $(function(){ 
+     var navMain = $("#nav-main");
+     navMain.on("click", "a", null, function () {
+         navMain.collapse('hide');
+     });
+ });
+</script>
+<script>
+function toggleChevron(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find("i.indicator")
+        .toggleClass('icon icon-arrow-down icon-arrow-up');
+}
+$('#accordion').on('hidden.bs.collapse', toggleChevron);
+$('#accordion').on('shown.bs.collapse', toggleChevron);
+</script>
+</body>
 
 </html>

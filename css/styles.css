@@ -1,0 +1,279 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+a, a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-size: 54px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 22px;
+    line-height: 1.6em;
+    font-weight: 300;
+}
+h3 {
+    font-size: 24px;
+    line-height: 1.6em;
+    font-weight: 300;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+p {
+    font-size: 15px;
+    line-height: 1.75em;
+    /*font-family: 'Open Sans', sans-serif;*/
+}
+li {
+    font-size: 15px;
+    line-height: 1.8em;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #fff;
+}
+.icon {
+    vertical-align: text-top;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 0px;
+}
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #eee;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+.navbar-toggle {
+    padding: 9px 6px;
+    border-radius: 2px;
+}
+.logo {
+    margin-top: 4px;
+    height: 40px;
+}
+.intro-section {
+    height: 100%;
+    padding-top: 300px;
+    text-align: center;
+    background: #fff;
+    background-image:url('../images/home_slideshow.jpg');
+    background-size: cover;
+    min-height: 650px;
+}
+.intro-section h1 {
+    text-shadow: 1px 1px 1px #000;
+    color: #fff;
+}
+.intro-section h2 {
+    text-shadow: 1px 1px 1px #000;
+    color: #fff;
+}
+.benefits-section {
+    min-height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #fff;
+}
+.about-section {
+    min-height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #fff;
+}
+.photo-personal {
+    width: 150px;
+    border-radius: 50%;
+}
+.about-section img {
+    text-align: center;
+    margin: 0 auto;
+}
+.faq-section {
+    min-height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: justify;
+    background: #fff;
+}
+.faq-section h1 {
+    text-align: center;
+}
+.faq-section .panel-title {
+    padding: 10px 0;
+}
+.faq-section .panel-group .panel {
+    border-radius: 0px;
+    box-shadow: none;
+}
+.faq-section .panel-default>.panel-heading {
+    background-color: transparent;
+    border-color: transparent;
+}
+.faq-section .panel-default {
+    border-color: transparent;
+}
+.faq-section .panel-heading {
+    padding: 5px 0;
+}
+.howitworks {
+    min-height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: justify;
+    background: #eee;
+    text-align: center;
+}
+.contact-section h1 {
+    text-align: center;
+}
+.contact-section {
+    min-height: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: justify;
+    background: #eee;
+}
+.contact-section .btn {
+    border: 0px !important;
+}
+#mc_embed_signup .mc-field-group select {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+}
+#mc_embed_signup .mc-field-group.input-group input {
+    margin: 0 10px 0 0;
+}
+#mc-embedded-subscribe {
+    margin: 0px;
+}
+#mc_embed_signup input {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+}
+.footer-section {
+    padding: 40px 0px 25px;
+    background: #eee;
+}
+.footer-section .icon {
+    font-size: 16px;
+}
+.icon {
+    color: #5CB0F5;
+    font-size: 36px;
+}
+.indicator {
+    font-size: 18px !important;
+}
+/*
+ * Animation for bouncing arrow in the homepage
+*/
+.awesome {
+    -webkit-animation-name: bounceIn;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: forwards;
+
+    animation-name: bounceIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+    40% {-webkit-transform: translateY(-15px);}
+    60% {-webkit-transform: translateY(-8px);}
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-15px);}
+    60% {transform: translateY(-8px);}
+}
+
+.bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    color: #fff;
+    text-decoration: none !important;
+    font-size: 34px;
+}
+.bounce a:hover, .bounce a:active, .bounce a:visited, .bounce a:link{
+    color: #fff;
+    text-decoration: none;
+}
+@media(max-width:768px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .intro-section {
+        padding-top: 220px;
+    }
+    .nav {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    li {
+        font-size: 14px;
+        line-height: 1.6em;
+        font-weight: 400;
+        text-shadow: 1px 1px 1px #fff;
+    }
+    .howitworks {
+        min-height: inherit;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .video {
+        position:relative;
+        padding-bottom:56.25%;
+        padding-top:30px;
+        height:0;
+        overflow:hidden;
+    }
+    .video iframe, .video object, .video embed {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+    }
+}
+@media(min-width:767px) {
+    .navbar {
+        padding: 10px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
